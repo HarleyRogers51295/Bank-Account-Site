@@ -4,9 +4,8 @@ using System.Text;
 
 namespace ConsoleApp1consoleUI
 {
-    public class Saving
+    public class CreditCard
     {
-
         CheckingAccount CheckingAccount = new CheckingAccount();
 
         private decimal _balance;
@@ -37,9 +36,9 @@ namespace ConsoleApp1consoleUI
 
         public void PrintBalance()
         {
-            Console.WriteLine($"Your Savings balance is : ${Balance}");
+            Console.WriteLine($"Your credit card balance is : ${Balance}");
         }
-        
+       
         }
     }
 

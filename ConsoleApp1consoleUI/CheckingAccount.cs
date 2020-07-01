@@ -6,9 +6,9 @@ namespace ConsoleApp1consoleUI
 {
     public class CheckingAccount
     {
-        public static int PinNumber { get; set; }
+        public int PinNumber { get; set; }
         //Properties
-        private decimal _balance;
+        private static decimal _balance;
 
         public decimal Balance//this makes it so adding and taking money is dependednt on the pin
         {
@@ -56,9 +56,11 @@ namespace ConsoleApp1consoleUI
 
         public void PrintBalance()//this method connects to Balance and prints it.
         {
-            Console.WriteLine($"Your Balance is : $ {Balance}");
+            
+            Console.WriteLine($"Your Checking account balance is : ${Balance}");
         }
 
-
+        
+        
     }
 }
