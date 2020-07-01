@@ -77,10 +77,7 @@ namespace ConsoleApp1consoleUI
                 Console.WriteLine("<Type the Number for your chouce>\n1. Savings, 2. Credit Card, 3. Checking Account, 4. Exit");
                 Console.WriteLine();
 
-                foreach (string option in AcctChoice)
-                {
-                    Console.WriteLine(option);
-                }
+               
                 AcctChoice[0] = "1";
                 AcctChoice[1] = "2";
                 AcctChoice[2] = "3"; 
@@ -93,6 +90,7 @@ namespace ConsoleApp1consoleUI
 
                     //asking user for withdraw or deposit
                     Console.WriteLine("Do you want to (1)deposit or (2)withdraw money?");
+                    Console.WriteLine("Press (4) to go back");
                     string userResponse = Console.ReadLine();
 
                     decimal amount;//this makes it so we can have amount in both below!
@@ -120,6 +118,7 @@ namespace ConsoleApp1consoleUI
 
                     //asking user for withdraw or deposit
                     Console.WriteLine("Do you want to (1)deposit or (2)withdraw money?");
+                    Console.WriteLine("Press (4) to go back");
                     string userResponse = Console.ReadLine();
 
                     decimal amount;//this makes it so we can have amount in both below!
@@ -147,6 +146,7 @@ namespace ConsoleApp1consoleUI
 
                     //asking user for withdraw or deposit
                     Console.WriteLine("Do you want to (1)deposit or (2)withdraw money?");
+                    Console.WriteLine("Press (4) to go back");
                     string userResponse = Console.ReadLine();
 
                     decimal amount;//this makes it so we can have amount in both below!
